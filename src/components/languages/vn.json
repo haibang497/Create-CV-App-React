@@ -1,0 +1,71 @@
+{
+  "CV2": {
+    "leftcol": {
+      "phone": "Số điện thoại",
+      "address": "Địa chỉ",
+      "skill": "KỸ NĂNG",
+      "skill-1": "Giải quyết vấn đề",
+      "skill-2": "Kỹ năng giao tiếp",
+      "skill-3": "Kỹ năng quản lý dự án",
+      "skill-4": "Làm việc nhóm",
+      "skill-5": "Làm việc độc lập",
+      "lang": "NGÔN NGỮ",
+      "lang-1": "Tiếng Anh - Cao cấp",
+      "lang-2": "Tiếng Nhật - Cao cấp"
+    },
+    "rightcol": {
+      "title": "Vị trí mong muốn ứng tuyển",
+      "objective": "Mục tiêu nghề nghiệp là một phần quan trọng nhất trong CV. Hãy đề cập những điểm nổi bật của sự nghiệp và mục tiêu cho công việc đang ứng tuyển. Tóm tắt lý do tại sao Nhà tuyển dụng phải chọn bạn (nên từ 80 – 100 từ)      ",
+      "information": "THÔNG TIN CÁ NHÂN",
+      "birthday": "Sinh nhật",
+      "status": "Tình trạng hôn nhân",
+      "nationality": "Quốc tịch",
+      "location": "Quốc gia",
+      "vietnam": "Việt Nam",
+      "vietnamese": "Việt Name",
+      "single": "Độc thân",
+      "experience": "KINH NGHIỆM LÀM VIỆC",
+      "job-title": "Chức danh - Tên Công ty",
+      "job-description": {
+        "achivement": "Thành tựu chính:",
+        "li-1": "- Những thành tựu chính bạn đã gặt hái trong công việc này",
+        "li-2": "- Nên thể hiện bằng con số, tỷ lệ phần trăm tăng trưởng hoặc số liệu tài chính",
+        "gained": "Các kỹ năng bạn đã đạt được:",
+        "gained-1": "- Kỹ năng/ kiến thức tích lũy được trong quá trình làm việc"
+      }
+    }
+  },
+  "CV1": {
+    "leftcol": {
+      "phone": "Số điện thoại",
+      "address": "Địa chỉ",
+      "skill": "KỸ NĂNG",
+      "skill-1": "Giải quyết vấn đề",
+      "skill-2": "Kỹ năng giao tiếp",
+      "information": "THÔNG TIN CÁ NHÂN",
+      "birthday": "Sinh nhật",
+      "status": "Tình trạng hôn nhân",
+      "nationality": "Quốc tịch",
+      "single": "Độc thân",
+      "location": "Quốc gia",
+      "vietnam": "Việt Nam",
+      "vietnamese": "Việt Nam"
+    },
+    "rightcol": {
+      "title": "Vị trí mong muốn ứng tuyển",
+      "objective": "Mục tiêu nghề nghiệp là một phần quan trọng nhất trong CV. Hãy đề cập những điểm nổi bật của sự nghiệp và mục tiêu cho công việc đang ứng tuyển. Tóm tắt lý do tại sao Nhà tuyển dụng phải chọn bạn (nên từ 80 – 100 từ)      ",
+      "lang": "NGÔN NGỮ",
+      "lang-1": "Tiếng Anh - Cao cấp",
+      "lang-2": "Tiếng Nhật - Cao cấp",
+      "experience": "KINH NGHIỆM LÀM VIỆC",
+      "job-title": "Chức danh - Tên Công ty",
+      "job-description": {
+        "achivement": "Thành tựu chính:",
+        "li-1": "- Những thành tựu chính bạn đã gặt hái trong công việc này",
+        "li-2": "- Nên thể hiện bằng con số, tỷ lệ phần trăm tăng trưởng hoặc số liệu tài chính",
+        "gained": "Các kỹ năng bạn đã đạt được:",
+        "gained-1": "- Kỹ năng/ kiến thức tích lũy được trong quá trình làm việc"
+      }
+    }
+  }
+}

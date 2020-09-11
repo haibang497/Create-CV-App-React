@@ -1,0 +1,182 @@
+.ZoneShowCVTemplate {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #58595b;
+
+
+  h2,
+  h4 {
+    color: #118fa7;
+    margin-bottom: 0px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  ul {
+    padding-bottom: 25px;
+  }
+
+  li {
+    display: list-item;
+  }
+
+  .container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+  .decoration {
+    img {
+      float: right;
+      width: 100%;
+      max-width: 400px;
+      height: 38px;
+      margin-top: 8px;
+    }
+  }
+
+  .pattern-top {
+    float: right;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 8px;
+    height: 38px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-image: url(https://static.careerbuilder.vn/themes/cv_tool/images/template-11-blueblack-top.png);
+  }
+
+  .content-contact {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  justify-content: center;
+  padding-top: 30px;
+
+  .contact {
+    padding-left: 20px;
+
+    li {
+      display: flex;
+      padding-bottom: 10px;
+    }
+
+    .icon {
+      width: 20%;
+      background: url(https://static.careerbuilder.vn/themes/cv_tool/images/template-11-corner-left.png)
+        right top no-repeat;
+      margin-left: -20px;
+
+      svg {
+        height: 22px;
+        width: 25px;
+        color: #118fa7;
+        background-color: #fff;
+      }
+    }
+
+    .value {
+      padding-left: 15px;
+    }
+  }
+
+  .skill {
+    img {
+      height: 15px;
+      padding-left: 5px;
+    }
+    li {
+      label {
+        width: 120px;
+      }
+    }
+  }
+
+  .flexcol {
+    display: flex;
+    background-color: #118fa7;
+
+    .left-col {
+      color: white;
+
+      .top {
+        background-color: white;
+
+        .avatar {
+          img {
+            border-radius: 25px;
+            border: solid 1px #d9d9db;
+          }
+
+          padding: 30px 50px 30px 50px;
+        }
+      }
+
+      .left-col-content {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    .right-col {
+      background-color: white;
+
+      .name {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        h2 {
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 1.1;
+          margin: 0px;
+        }
+        h4 {
+          font-size: 14px;
+          margin-bottom: 20px;
+        }
+      }
+      .content {
+        padding: 0px 30px;
+
+        h3 {
+          display: inline-block;
+          color: #fff;
+          font-size: 18px;
+          padding: 0 50px 0 30px;
+          margin-left: -30px;
+          height: 26px;
+          line-height: 26px;
+          background-position: right top;
+          background-image: url("https://static.careerbuilder.vn/themes/cv_tool/images/template-11-blueblack-label.png");
+          background-repeat: no-repeat;
+        }
+
+        table {
+          tr {
+            td {
+              label {
+                padding-right: 50px;
+              }
+            }
+          }
+        }
+
+        .content-r {
+          
+          p {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}

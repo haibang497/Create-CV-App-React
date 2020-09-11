@@ -1,0 +1,108 @@
+// =============================================================================
+// Mixins
+// =============================================================================
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius:    $radius;
+    -ms-border-radius:     $radius;
+    border-radius:         $radius;
+}
+@mixin transform ($string){
+    -webkit-transform:   $string;
+    -moz-transform:      $string;
+    -ms-transform:       $string;
+    -o-transform:        $string;
+    transform:           $string;
+}
+@mixin box-shadow ($string) {
+    -webkit-box-shadow: $string;
+    box-shadow:         $string;
+}
+@mixin transition ($transition) {
+    -webkit-transition: $transition;  
+    -moz-transition:    $transition;
+    transition:         $transition;
+}
+@mixin circle ($width, $color, $display) {
+    width:   $width;
+    height:  $width;
+    display: $display;
+    background-color: $color;
+    -webkit-border-radius: $width/2;
+    -moz-border-radius:    $width/2;
+    -ms-border-radius:     $width/2;
+    border-radius:         $width/2;
+}
+@mixin filter ($string){
+    filter: $string;
+    -ms-filter: $string;
+}
+@mixin align-items ($string) {
+    align-items:         $string;
+    -webkit-align-items: $string;
+}
+
+@mixin user-select( $string ) {
+    -webkit-user-select: $string;
+    -moz-user-select:    $string;
+    -ms-user-select:     $string;
+    user-select:         $string;
+}
+
+@mixin animation($animation) {  -webkit-animation: $animation;  -moz-animation:    $animation;  -o-animation:      $animation;  animation:         $animation;}
+
+// =============================================================================
+// Breakpoints
+// =============================================================================
+@mixin bp-xxlarge {
+    @media only screen and (min-width: 1921px) {
+        @content;
+    }
+}
+@mixin bp-xlarge {
+    @media only screen and (max-width: 1920px) {
+        @content;
+    }
+}
+@mixin bp-large {
+    @media only screen and (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin bp-lap {
+    @media only screen and (max-width: 1366px) {
+        @content;
+    }
+}
+
+@mixin bp-small-device {
+    @media only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin bp-medium {
+    @media only screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin bp-small {
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin bp-tiny {
+    @media only screen and (max-width: 543px) {
+        @content;
+    }
+}
+
+@mixin bp-extra-sm {
+    @media only screen and (max-width: 400px) {
+        @content;
+    }
+}

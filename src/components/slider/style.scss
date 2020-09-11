@@ -1,0 +1,143 @@
+.slick-slide {
+  width: 281px;
+  img {
+    margin: auto;
+    display: block;
+  }
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #000;
+}
+
+/* Icons */
+@font-face {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: FontAwesome;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+[dir="rtl"] .slick-prev {
+  right: -25px;
+  left: auto;
+}
+
+.slick-prev:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url(../../assets/images/icons/arrow-circle-left.svg) no-repeat;
+  /* background: red; */
+  position: absolute;
+  top: 0;
+  z-index: 5555555;
+  background-size: contain;
+}
+
+[dir="rtl"] .slick-prev:before {
+  content: "\f054";
+}
+
+.slick-next {
+  right: -25px;
+}
+
+[dir="rtl"] .slick-next {
+  right: auto;
+  left: -25px;
+}
+
+.slick-next:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url(../../assets/images/icons/arrow-circle-right.svg) no-repeat;
+  /* background: red; */
+  position: absolute;
+  top: 0;
+  z-index: 5555555;
+  background-size: contain;
+}
+
+[dir="rtl"] .slick-next:before {
+  content: "\f053";
+}
+
+.center {
+  .slick-center {
+    .CV-item {
+      border: 3px solid #009b74;
+    }
+
+    img {
+      transform: scale(1.25);
+      height: 100%;
+      z-index: 0;
+    }
+
+    .CV-item {
+      z-index: 0;
+    }
+
+    .cv-info {
+      position: absolute;
+      left: 30%;
+      z-index: 1;
+      display: block;
+      padding: 8px 15px;
+      background-color: #009b74;
+      color: white;
+    }
+  }
+}
+
+.CV-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.cv-info {
+  text-align: center;
+  display: none;
+}

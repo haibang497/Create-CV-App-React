@@ -1,0 +1,36 @@
+.nav {
+    font-size: 20px;
+    padding: 15px 25px 0px 25px;
+    justify-content: center;
+    .nav-link {
+        background-color: #dcdcdc;
+        color: white;
+        width: 310px;
+        text-align: center;
+    }
+}
+
+.nav-tabs {
+    border: 0;
+    .nav-link {
+        &:active {
+            background: linear-gradient(to top, green 4px, transparent 0);
+        }
+        &:hover {
+            color: black;
+            background: linear-gradient(to top, green 4px, transparent 0);
+        }
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    padding: 15px 15px 0px 15px;
+    color: #009b74;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: darkcyan;
+}

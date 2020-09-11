@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+
+  &__content {
+    flex-grow: 8;
+  }
+  
+  &__buttons {
+    flex-grow: 1;
+  }
+}
+
+.btn {
+  background-color: #007a4f;
+  color: white;
+  height: 40px;
+  width: 120px;
+  padding: 8px 30px;  
+  margin-right: 10px;
+  font-size: 14px;
+  text-align: center;
+}

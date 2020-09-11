@@ -1,0 +1,71 @@
+{
+  "CV2": {
+    "leftcol": {
+      "phone": "Phone number",
+      "address": "Address",
+      "skill": "SKILL",
+      "skill-1": "Problem Solving",
+      "skill-2": "Communication",
+      "skill-3": "Project manager",
+      "skill-4": "Teamwork",
+      "skill-5": "Independent Working",
+      "lang": "LANGUAGES",
+      "lang-1": "English - High-level",
+      "lang-2": "Japan - High-level"
+    },
+    "rightcol": {
+      "title": "Expected Tittle",
+      "objective": "Your personal statement is perhaps the single most important part of you CV. Its aim is to highlight your professional attributes and goals, summarize why someone should consider your application. (80-100 words)",
+      "information": "PERSONAL PROFILE",
+      "birthday": "Birthday",
+      "status": "Marital status",
+      "nationality": "Nationality",
+      "location": "Location",
+      "vietnam": "Vietnam",
+      "vietnamese": "Vietnamese",
+      "single": "Single",
+      "experience": "WORK EXPERIENCE",
+      "job-title": "Job Title - Company Name",
+      "job-description": {
+        "achivement": "Key achievements:",
+        "li-1": "- Provide a list of the key achievements you have made in your job",
+        "li-2": "- Try to show evidence such as percentage increases or financial figures",
+        "gained": "Key skills gained:",
+        "gained-1": "- Show that you have the relevant knowledge required to succeed"
+      }
+    }
+  },
+  "CV1": {
+    "leftcol": {
+      "phone": "Phone number",
+      "address": "Address",
+      "skill": "SKILL",
+      "skill-1": "Problem Solving",
+      "skill-2": "Communication",
+      "information": "PERSONAL PROFILE",
+      "birthday": "Birthday",
+      "status": "Marital status",
+      "nationality": "Nationality",
+      "location": "Location",
+      "single": "Single",
+      "vietnam": "Vietnam",
+      "vietnamese": "Vietnamese"
+    },
+    "rightcol": {
+      "title": "Expected Tittle",
+      "objective": "Your personal statement is perhaps the single most important part of you CV. Its aim is to highlight your professional attributes and goals, summarize why someone should consider your application. (80-100 words)",
+      "lang": "LANGUAGES",
+      "lang-1": "English - High-level",
+      "lang-2": "Japan - High-level",
+      "experience": "WORK EXPERIENCE",
+      "job-title": "Job Title - Company Name",
+      "job-description": {
+        "achivement": "Key achievements:",
+        "li-1": "- Provide a list of the key achievements you have made in your job",
+        "li-2": "- Try to show evidence such as percentage increases or financial figures",
+        "gained": "Key skills gained:",
+        "gained-1": "- Show that you have the relevant knowledge required to succeed"
+      }
+    }
+  }
+}

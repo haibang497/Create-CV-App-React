@@ -1,0 +1,55 @@
+.cv {
+    padding-top: 30px;
+    .cv1 {
+        font-family: Roboto;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+        background-color: white;
+        width: 663px;
+        height: 880px;
+        .header {
+            background: url(https://static.careerbuilder.vn/themes/cv_tool/images/template5-33.png) left bottom no-repeat;
+            background-size: cover;
+            height: 230px;
+            padding: 22px 0 0 45px;
+            .logo {
+                padding-left: 40px;
+                height: 153px;
+                border-radius: 25px;
+            }
+            .name {
+                color: white;
+                padding-top: 15px;
+                vertical-align: middle;
+            }
+        }
+        .main {
+            padding-left: 20px;
+            padding-right: 20px;
+            background: none;
+            padding-top: 20px;
+            h3 {
+                color: #007457;
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+                color: #58595B;
+                margin-bottom: 0;
+            }
+            label {
+                font-size: 14px;
+                color: #58595B;
+                margin-bottom: 0;
+                padding-right: 10px;
+            }
+            .row {
+                .one-infor {
+                    padding-bottom: 15px;
+                }
+                .three {
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
