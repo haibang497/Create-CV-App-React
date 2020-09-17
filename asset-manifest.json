@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Create-CV-App-React/static/css/main.8ab77056.chunk.css",
+    "main.js": "/Create-CV-App-React/static/js/main.0ecd3c65.chunk.js",
+    "main.js.map": "/Create-CV-App-React/static/js/main.0ecd3c65.chunk.js.map",
+    "runtime-main.js": "/Create-CV-App-React/static/js/runtime-main.869b5813.js",
+    "runtime-main.js.map": "/Create-CV-App-React/static/js/runtime-main.869b5813.js.map",
+    "static/css/2.136c6445.chunk.css": "/Create-CV-App-React/static/css/2.136c6445.chunk.css",
+    "static/js/2.42f125e0.chunk.js": "/Create-CV-App-React/static/js/2.42f125e0.chunk.js",
+    "static/js/2.42f125e0.chunk.js.map": "/Create-CV-App-React/static/js/2.42f125e0.chunk.js.map",
+    "index.html": "/Create-CV-App-React/index.html",
+    "precache-manifest.5fd5f559be4a6c68aab051434fe595ac.js": "/Create-CV-App-React/precache-manifest.5fd5f559be4a6c68aab051434fe595ac.js",
+    "service-worker.js": "/Create-CV-App-React/service-worker.js",
+    "static/css/2.136c6445.chunk.css.map": "/Create-CV-App-React/static/css/2.136c6445.chunk.css.map",
+    "static/css/main.8ab77056.chunk.css.map": "/Create-CV-App-React/static/css/main.8ab77056.chunk.css.map",
+    "static/js/2.42f125e0.chunk.js.LICENSE.txt": "/Create-CV-App-React/static/js/2.42f125e0.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/Create-CV-App-React/static/media/arrow-circle-right.905223aa.svg",
+    "static/media/email.png": "/Create-CV-App-React/static/media/email.11e7e309.png",
+    "static/media/font-awesome.min.css": "/Create-CV-App-React/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/fox.jpg": "/Create-CV-App-React/static/media/fox.71c5c1e0.jpg",
+    "static/media/square1.svg": "/Create-CV-App-React/static/media/square1.b8233af2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.869b5813.js",
+    "static/css/2.136c6445.chunk.css",
+    "static/js/2.42f125e0.chunk.js",
+    "static/css/main.8ab77056.chunk.css",
+    "static/js/main.0ecd3c65.chunk.js"
+  ]
+}
